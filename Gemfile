@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails'
 
 group :development do
   gem 'sqlite3'
@@ -10,13 +10,13 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '3.2.5'
-  gem 'coffee-rails', '3.2.2'
+  gem 'sass-rails'
+  gem 'coffee-rails'
 
-  gem 'uglifier', '1.2.3'
+  gem 'uglifier'
 end
 
-gem 'jquery-rails', '2.0.2'
+gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
